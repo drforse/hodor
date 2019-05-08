@@ -8,8 +8,8 @@ def reply_unic_fucking_func(message):
     for keyword in list:
         if keyword in message.text.lower():
             bot.reply_to(message, 'Hodor')
-    if message.reply_to_message.from_user.id == 875106649:
-        bot.reply_to(message, 'Hodor')
+#    if message.reply_to_message.from_user.id == 875106649:
+#        bot.reply_to(message, 'Hodor')
         
 
 bot.polling()
