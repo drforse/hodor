@@ -10,7 +10,7 @@ def reply_unic_fucking_func(message):
             bot.reply_to(message, 'Hodor')
 @bot.message_handler(content_types = ['text'])
 def reply(message):
-    if message.reply_to_message.from_user.id == 875106649:
+    if message.reply_to_message.from_user.id == '875106649':
         bot.reply_to(message, 'Hodor')
         
 
